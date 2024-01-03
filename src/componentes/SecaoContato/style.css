@@ -1,0 +1,61 @@
+.contatos{
+    background-color:#05031b;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+    padding: 100px 20px;
+}
+.contatos_total{
+    
+    text-align:left;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.contatos_y{
+    display: flex;
+    flex-direction:column; 
+    justify-content: left;
+    padding: 15px;    
+}
+.contatos_x{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px 0;
+
+}
+.contatos_x img{
+    width: 18px;
+}
+.contatos_x p {
+    
+    font-size: 14px;
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    section{
+        padding: 60px 20px;
+
+    }
+    
+}
+@media (max-width: 550px){
+    .contatos{
+        padding: 0 10px;       
+        text-align: center;
+        display: flex;
+    }
+    .contatos_total{
+        flex-direction: column;        
+    }
+    .contatos_y{
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    .contatos_x{
+        width: 150px;
+    }
+}
